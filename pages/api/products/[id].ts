@@ -13,7 +13,7 @@ export default async function handler(
 			.db()
 			.collection("products")
 			.findOne({
-				_id: new ObjectId(req?.query?.id as string),
+				_id: req?.query?.id as any,
 			});
 
 		res.status(200).send(post);
