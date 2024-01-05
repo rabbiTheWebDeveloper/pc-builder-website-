@@ -1,5 +1,4 @@
 import CategoryProducts from "@/components/presentation/productsList/CategoryProducts";
-import ChooseProductsList from "@/components/presentation/productsList/ChooseProductsList";
 import { ICategory, IProduct } from "@/types/CommonType";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 
@@ -34,7 +33,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 	return {
 		paths: all_categories?.map((category: ICategory) => ({
 			params: {
-				key: category.key,
+				key: category?.key,
 			},
 		})),
 		fallback: true,
