@@ -1,4 +1,5 @@
-import AllCategories from "@/components/presentation/categories/AllCategories";
+
+import AllCategories from "@/components/presentation/Categories/AllCategories";
 import { ICategory } from "@/types/CommonType";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 
