@@ -20,7 +20,8 @@ export default Categories;
 
 //
 export const getStaticProps: GetStaticProps<ICategories> = async () => {
-	const base_url = process.env.BASE_URL;
+	// const base_url = process.env.BASE_URL;
+	const base_url ="https://ah-pc-builder.vercel.app";
 
 	// categories
 	const categories_res = await fetch(`${base_url}/api/categories`);
