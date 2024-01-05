@@ -2,7 +2,7 @@
 
 ![Alt text](image.png)
 
-[Visit the PC Builder Website](https://ah-pc-builder.vercel.app/)
+[Visit the PC Builder Website](https://pc-builder-website-plum.vercel.app)
 
 ## Description
 
@@ -106,10 +106,10 @@ The following API endpoints are available:
 Thank you for visiting the PC Builder Website! If you have any questions,
 feedback, or need assistance, feel free to reach out to me:
 
-- Email: ahsanullahsunsbd@gamil.com
-- Twitter: [@ahsanullah1871](https://twitter.com/ahsanullah1871)
+- Email: rabbithedeveloper@gamil.com
+
 - facebook:
-  [https://www.facebook.com/Ahsan1871/](https://www.facebook.com/Ahsan1871/)
+  [https://www.facebook.com/rafayelrabbi/](https://www.facebook.com/rafayelrabbi/)
 - Website: [www.pc-builder-website.com](https://www.pc-builder-website.com)
 
 ## Happy Building!
