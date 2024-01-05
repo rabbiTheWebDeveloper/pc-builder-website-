@@ -25,10 +25,10 @@ const HeroBanner = ({ product }: { product: IProduct }) => {
 				<SecondaryButton
 					onClick={(e) =>
 						router.push(
-							`/products/${product._id}`
+							`/products/${product?._id}`
 						)
 					}
-					title={product.name}
+					title={product?.name}
 					button_styles="mt-10 text-primary"
 				/>
 			</div>
@@ -47,7 +47,7 @@ const HeroBanner = ({ product }: { product: IProduct }) => {
 					)}
 					{/* price tag */}
 					<p className="bg-[#FB8F2C] text-white px-4 py-3  text-2xl  font-semibold font-libre absolute  bottom-20  sm:-left-8">
-						Price:$${product.price}
+						Price:$${product?.price}
 					</p>
 				</div>
 				{/* Thumb images */}
