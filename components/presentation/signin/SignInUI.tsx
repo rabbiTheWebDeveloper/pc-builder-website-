@@ -4,13 +4,14 @@ import { IMAGES } from "@/constants/IMAGES";
 import { signIn } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
+import loginImage from "@/public/login.gif";
 
 const SignInUI = () => {
 	return (
 		<div className="w-full h-full  bg-primary_dark grid grid-cols-1 md:grid-cols-2  ">
 			<div className=" w-full h-full absolute -z-0 md:z-auto md:relative ">
 				<Image
-					src={IMAGES.signin}
+					src={loginImage}
 					fill
 					className=" bg-[#EFF7FE]  object-contain"
 					alt="signIn"

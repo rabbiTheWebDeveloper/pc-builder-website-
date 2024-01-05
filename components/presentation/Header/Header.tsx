@@ -1,14 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import DropDown from "../../shared/DropDown";
-import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
-import { ICONS } from "@/constants/ICONS";
 import usePathMatch from "@/utils/pathCheck";
 import MobileMenus from "./MobileMenus";
 import { signOut, useSession } from "next-auth/react";
 import { FeaturedCategoriesData } from "@/data/CategoriesList";
 import { IMAGES } from "@/constants/IMAGES";
 import { useEffect, useState } from "react";
+import loginImage from "@/public/logo.png";
 
 const Header = () => {
 	const { data: user_session } = useSession();
@@ -127,7 +126,7 @@ const Header = () => {
 				<div className="absolute inset-0 ml-12  sm:mx-auto my-auto w-[100px]   md:w-[150px] h-[80px]  ">
 					<Link href={"/"}>
 						<Image
-							src={IMAGES.logo}
+							src={loginImage}
 							alt="logo"
 							fill
 							className=" object-cover"

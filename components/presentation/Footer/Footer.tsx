@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const Footer = () => {
 	return (
-		<div className={["w-full  bg-[#060607]"].join(" ")}>
+		<div className={["w-full  bg-[#5a5a5f]"].join(" ")}>
 			<div className=" px-4 md:px-0 mb-auto max-w-project mt-20 min-h-[34px] py-10 mx-auto flex items-start   justify-start gap-8 flex-wrap  ">
 				{/* 1st */}
 				<div className=" flex-grow h-full flex flex-col  ">
@@ -23,7 +23,7 @@ const Footer = () => {
 							/>
 						</Link>
 						<p className=" text-2xl md:text-2xl  font-libre  capitalize text-[#fff] ">
-							AH PC BUILDER
+							PC BUILDER
 						</p>
 					</div>
 
@@ -82,13 +82,13 @@ const Footer = () => {
 
 					<div className=" flex flex-col gap-4 mt-4 ">
 						<p className=" text-base text-[#FFFFFF] font-jakarta">
-							Rangpur , Sadar , Bangladesh
+						7, Road No - 08/A, House no: 88, Dhaka 1229
 						</p>
 						<p className=" text-primary text-base font-jakarta">
-							ahsanullahsunsbd@gamil.com
+							rabbithedeveloper@gamil.com
 						</p>
 						<p className=" text-white text-base font-jakarta">
-							0187299..7.
+							017265242..7.
 						</p>
 					</div>
 				</div>
@@ -102,7 +102,7 @@ const Footer = () => {
 					<div className=" flex flex-col gap-4 mt-4 ">
 						<Link
 							href={
-								"https://www.facebook.com/Ahsan1871/"
+								"https://www.facebook.com/rafayelrabbi/"
 							}
 							className=" text-base text-[#FFFFFF] font-jakarta"
 						>
@@ -110,7 +110,7 @@ const Footer = () => {
 						</Link>
 						<Link
 							href={
-								"https://github.com/Ahsan-Ullah1871"
+								"https://github.com/rabbiTheWebDeveloper"
 							}
 							className=" text-base text-[#FFFFFF] font-jakarta"
 						>
@@ -118,20 +118,13 @@ const Footer = () => {
 						</Link>
 						<Link
 							href={
-								"https://www.linkedin.com/in/ah1871/"
+								"https://www.linkedin.com/in/alrabbi//"
 							}
 							className=" text-base text-[#FFFFFF] font-jakarta"
 						>
 							Lindien
 						</Link>
-						<Link
-							href={
-								"https://twitter.com/ahsanullah1871"
-							}
-							className=" text-base text-[#FFFFFF] font-jakarta"
-						>
-							X
-						</Link>
+					
 					</div>
 				</div>
 
@@ -145,10 +138,11 @@ const Footer = () => {
 						<p className=" text-base text-[#FFFFFF] font-jakarta">
 							Website build by
 							<a
-								href="https://github.com/Ahsan-Ullah1871"
+								href="https://github.com/rabbiTheWebDeveloper"
 								target="_blank"
 							>
-								AH
+								{" "}
+								rabbithedeveloper
 							</a>
 						</p>
 
